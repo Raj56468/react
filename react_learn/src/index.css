@@ -1,0 +1,118 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: poppins, sans-serif;
+}
+
+.parent {
+  width: 100%;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 30px;
+  height: 350px;
+  width: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.top img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 6px;
+  object-fit: contain;
+  background-color: #fff;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: black;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b1;
+  padding: 15x;
+}
+
+.center h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.center h3 span {
+  font-size: 9px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.center h2 {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.center .tag {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.center .tag h4 {
+  font-size: 12px;
+  background-color: #dadada;
+  color: #111;
+  padding: 3px 6px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.bottom button {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  column-width: 600;
+}
+
+.bottom h3 {
+  font-size: 17px;
+  color: #111 ;
+}
+
+.bottom {
+  font-size: 10px;
+  color: #8b8b8b;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1.5px solid #d7d7d7;
+  padding-top: 15px;
+}
+ 
